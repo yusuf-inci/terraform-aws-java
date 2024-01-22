@@ -25,7 +25,7 @@ variable "USERNAME" {
 }
 
 variable "MYIP" {
-  default = "85.96.225.31/32"
+  default = "<IP>"
 }
 
 variable "rmquser" {
@@ -96,16 +96,3 @@ variable "PrivSub2CIDR" {
 variable "PrivSub3CIDR" {
   default = "172.21.6.0/24"
 }
-
-# variable "ZONE1" {
-# default = "us-east-2a"
-# }
-
-# variable "ZONE2" {
-# default = "us-east-2b"
-# }
-
-# variable "ZONE3" {
-# default = "us-east-2c"
-# }
-
